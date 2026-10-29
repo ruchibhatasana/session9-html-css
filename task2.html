@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StayNest - PG Finder</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <h1>Welcome to StayNest PG Finder</h1>
+
+        <p>
+            StayNest helps students and working professionals find comfortable,
+            affordable and secure paying guest accommodations near colleges,
+            offices and popular locations. Explore different rooms and choose
+            the perfect place that matches your needs and budget.
+        </p>
+
+        <!-- Responsive Row -->
+        <div class="row mt-4">
+
+            <!-- Filter Column -->
+            <div class="col-12 col-md-3">
+                <div class="border rounded p-3">
+                    <h3>Filters</h3>
+
+                    <div class="mb-3">
+                        <label for="city" class="form-label">City</label>
+                        <select id="city" class="form-select">
+                            <option>Select City</option>
+                            <option>Rajkot</option>
+                            <option>Ahmedabad</option>
+                            <option>Surat</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="rent" class="form-label">Rent range</label>
+                        <select id="rent" class="form-select">
+                            <option>Select Rent</option>
+                            <option>₹3,000 - ₹5,000</option>
+                            <option>₹5,000 - ₹8,000</option>
+                            <option>₹8,000 - ₹12,000</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="gender" class="form-label">Gender</label>
+                        <select id="gender" class="form-select">
+                            <option>Select Gender</option>
+                            <option>Boys</option>
+                            <option>Girls</option>
+                            <option>Any</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="sharing" class="form-label">Sharing</label>
+                        <select id="sharing" class="form-select">
+                            <option>Select Sharing</option>
+                            <option>Single</option>
+                            <option>Double</option>
+                            <option>Triple</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Listings Column -->
+            <div class="col-12 col-md-9">
+                <h2>Available PG Listings</h2>
+
+                <div class="border rounded p-3 mb-3">
+                    <h4>Comfort Stay PG</h4>
+                    <p>City: Rajkot</p>
+                    <p>Rent: ₹5,000 per month</p>
+                    <p>Sharing: Double</p>
+                </div>
+
+                <div class="border rounded p-3 mb-3">
+                    <h4>Student Home PG</h4>
+                    <p>City: Ahmedabad</p>
+                    <p>Rent: ₹7,000 per month</p>
+                    <p>Sharing: Single</p>
+                </div>
+
+                <div class="border rounded p-3 mb-3">
+                    <h4>Green View PG</h4>
+                    <p>City: Surat</p>
+                    <p>Rent: ₹4,500 per month</p>
+                    <p>Sharing: Triple</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
